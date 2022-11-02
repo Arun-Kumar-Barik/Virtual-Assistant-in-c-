@@ -1,3 +1,16 @@
+/*
+----------------------------------------------------------------------------
+               Project title   : INERTIA(virtual assistant)
+               Made By         : GROUP 10
+               Written in      : C++
+               Started project : 1 OCTOBER,2022
+               Platform        : WINDOWS
+               IDE used        : VS CODE
+               Last Modified   : 2/11/22
+               Total Code      : 500+ LINES
+ ----------------------------------------------------------------------------
+*/
+
 #include <iostream>
 #include <windows.h>
 #include <cstdlib>
