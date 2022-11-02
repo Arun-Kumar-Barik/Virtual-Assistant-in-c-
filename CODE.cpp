@@ -239,8 +239,8 @@ int main()
                 else if(temp.find("what")==0 || temp.find("who")==0 || temp.find("where")==0 || temp.find("when")==0 || temp.find("which")==0 || 
                 temp.find("whom")==0 || temp.find("whose")==0 || temp.find("why")==0 || temp.find("whether")==0 ||temp.find("how")==0 || temp.find("?")==temp.length()-1 )
                 {
-                    cout<<"I am A genius , I can easily Provide the answer Let me call Google"<<endl;
-                    string phrase = "I am A genius , I can easily Provide the answer Let me call Google";
+                    cout<<"I am A genius , I can easily Provide the answer Wait For Me"<<endl;
+                    string phrase = "I am A genius , I can easily Provide the answer ...Wait for me";
                     string command = "espeak \"" + phrase + "\"";
                     const char *charCommand = command.c_str();
                     system(charCommand);
