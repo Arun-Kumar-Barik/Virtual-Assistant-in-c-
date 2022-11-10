@@ -325,6 +325,18 @@ int main()
                     system(charCommand);
                     system("start https://weather.com/en-IN/weather/today/l/b19e1fd81fd015b890c7ca885c21f05eaa7171895c95af66d5997fb2bf944fe8");
                 }
+             
+             else if(strcmp("open files",ch)==0)
+                {
+                    cout<<"Enter The File Name which you want to open"<<endl;
+                    string phrase = "Enter The File Name which you want to open";
+                    string command = "espeak \"" + phrase + "\"";
+                    const char *charCommand = command.c_str();
+                    system(charCommand);
+                    gets(ch);
+                    temp="start "+(string)ch;
+                    system(temp.c_str());
+                }
 
                 else if(strcmp(ch, "open spotify") == 0){
 
@@ -366,6 +378,16 @@ int main()
                     const char *charCommand = command.c_str();
                     system(charCommand);
                     system("start https://www.facebook.com");
+                }
+             
+             else if(strcmp(ch, "open whatsapp") == 0)
+                {
+                    cout<<"openining Whatsapp....."<<endl;
+                    string phrase = "opening whatsapp";
+                    string command = "espeak \"" + phrase + "\"";
+                    const char *charCommand = command.c_str();
+                    system(charCommand);
+                    system("start https://web.whatsapp.com/");
                 }
 
                 else if(strcmp("movie",ch)==0){
